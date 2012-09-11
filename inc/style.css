@@ -1,8 +1,15 @@
+html
+{
+	overflow-x: hidden;
+}
+
 #wrapper, #container {
-    width: 500px;
+	height: 550px;
+    width: 550px;
 }
 
 #wrapper {
+    bottom: 50%;
     right: 50%;
     position: absolute;
 }
